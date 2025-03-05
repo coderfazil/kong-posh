@@ -1,0 +1,113 @@
+.products-details{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+
+}
+.kong-prod-img {
+height: 436px;
+width:436px;
+}
+.kong-prod-img img{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+ object-position: top;
+  
+}
+.prod-details{
+  margin-left: 30px;
+}
+.prod-details h3{
+  font-family: serif;
+  line-height: 1.2;
+}
+.kong-prod-prices{
+  display: flex;
+  color: #59756f;
+  font-size: 27px;
+  font-family: serif;
+  margin-top: 10px;
+}
+.dashed-price{
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+.size-label{
+  display: block;
+  cursor: pointer;
+  font-size: large;
+}
+.select-el{
+  margin-top: 8px;
+  height: 42px;
+  width: 57px;
+  text-align: center;
+  font-size: large;
+  cursor:pointer;
+}
+.prod-quantity{
+  margin-top: 20px;
+}
+.prod-quantity input{
+ height:40px;
+ width:150px;
+  display: block;
+  margin-top: 10px;
+}
+.kong-prod-btn{
+  height:44px;
+  width:218px;
+  border:1px solid #59756f;
+  background-color: transparent;
+ text-align: center;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.kong-prod-btn:active{
+  background-color:#6d827d;
+ 
+}
+.kong-prod-btn:active .ad-to-cart{
+  color:white;
+}
+
+.ad-to-cart{
+    padding-top: 14px;
+    background-color: transparent;
+    white-space: normal;
+    border:none;
+    color:#59756f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  
+}
+.ad-to-cart:hover{
+  color:#a7bab6;
+}
+.kong-buy-btn{
+  height:44px;
+  width:218px;
+  background-color:#59756f;
+  
+ text-align: center;
+  margin-top: 12px;
+  color:white;
+  cursor: pointer;
+}
+.buy-it-now{
+   padding-top: 14px;
+    background-color: transparent;
+    white-space: normal;
+    border:none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.kong-buy-btn:hover{
+  background-color: #6d8d86;
+}
+
+

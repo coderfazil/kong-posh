@@ -1,0 +1,58 @@
+.kong-hero-container{
+  height: 260px;
+  width:970px;
+  margin: 30px 0 0 200px;
+  position: relative;
+ 
+  overflow: hidden;
+  
+}
+.success-message {
+  position: absolute; /* Or fixed depending on your layout */
+  top: 80px; /* Adjust as necessary */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000; /* Ensure it shows above other elements */
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.kong-hero-slides img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+ 
+}
+.control-hero-container{
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.hero-btns{
+  height:12px;
+  width:12px;
+  
+  display: block;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color:#59756f;
+  border:2px solid white;
+  margin:10px;
+ 
+
+}
+.hero-btns:hover{
+  background-color: #3a4742;
+}
+.hero-btns-active{
+  
+  border:2px solid #59756f;
+  background-color: white;
+  pointer-events: none;
+  
+}

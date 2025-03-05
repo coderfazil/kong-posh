@@ -1,0 +1,45 @@
+.kong-frame-container{
+  flex: 1 1 25%;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.frame-img{
+  height: 250px;
+  width:250px;
+}
+.frame-img img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  object-position: top;
+
+}
+.kong-frame-details{
+  font-size: 15px;
+  max-width: 250px;
+  font-family: serif;
+  margin-top:10px;
+  margin-block-end:0px;
+  text-align: center;
+}
+.kong-frame-pricing{
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  margin-bottom:10px;
+  
+  
+  
+  font-family: serif;
+}
+#dashed-price{
+  text-decoration: line-through;
+}
+#price{
+  margin-left: 8px;
+}
+.headerLink{
+  text-decoration: none;
+  color: black;
+}

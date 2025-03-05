@@ -1,0 +1,140 @@
+.header{
+  height:60px;
+  width:100%;
+  background-color: #59756f;
+  margin-bottom: 10px;
+}
+.header-elements{
+  height:60px;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+ 
+  margin-right: 150px;
+}
+.butt{
+  
+  background-color: #59756f;
+  color:white;
+  font-weight: 500;
+  text-decoration: none;
+  margin:10px;
+}
+#or{
+  color: white;
+  font-weight: 500;
+  margin-top: 12px;
+
+}
+.header-formk{
+  height:50px;
+  background: white;
+  margin-left:50px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-formk:focus-within {
+ border-color:  black;
+}
+.header-input-k{
+  height:30px;
+  background: transparent;
+  border-color: transparent;
+  outline: none;
+  margin-top:12px;
+}
+ 
+  .search-message {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+ 
+
+input:focus{
+  outline: none;
+}
+
+.search-icon{
+ 
+  height: 40px;
+  width:30px;
+  border: transparent;
+  background:transparent;
+  border-radius: 1px;
+  border-right: none;
+  color:black;
+}
+input, :before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*site header*/
+
+#headerId{
+  text-align: center;
+  margin-top: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.siteHeader-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+.header-home{
+  font-weight: 600;
+}
+.anchor-elements{
+  margin:0 0 0 70px;
+  position: relative;
+}
+.a-Lists{
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+.anchorlist{
+  list-style: none;
+  display: none;
+  position:absolute;
+  padding-inline-start:0px;
+ background-color: white;
+  box-shadow: 0 1px 1px #0000001a;
+  z-index: 20;
+  font-family: serif;
+  min-height: 130px;
+  min-width:170px;
+  margin-block-end:0px;
+  text-align: center;
+
+}
+
+.anchor-elements:hover .anchorlist ,.anchorlist :hover{
+  display:block;
+}
+.a-Lists:hover{
+  color:#59756f
+}
+.listItems-subList{
+  margin:5px;
+  cursor: pointer;
+ 
+  color:black;
+  font-family: serif;
+}
+.headerLink{
+  text-decoration: none;
+  color: black;
+}
+.listItems-subList:hover{
+  color:#59756f
+}
+
+
+

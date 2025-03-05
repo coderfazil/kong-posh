@@ -1,0 +1,48 @@
+.kong-footer{
+  height: 350px;
+  width:100%;
+  background-color: #dce7dc;
+}
+.kong-footer-element-list{
+
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+h4{
+  padding-left :35px;
+  font-size:large;
+  font-family: serif;
+  color:black;
+}
+.kong-footer-elements{
+  padding-top:30px;
+}
+.kong-footer-subelements{
+  list-style: none;
+ margin-top: 20px;
+}
+.subelements-items{
+  margin-top :8px;
+}
+.subelements-items-aTag{
+  text-decoration: none;
+  color: rgb(51, 50, 50);
+  font-family: serif;
+}
+.subelements-items-aTag:hover{
+  color:#59756f;
+}
+.followUS-list{
+  display: flex;
+list-style: none;
+}
+.followUs-aTag{
+  margin-left: 10px;
+  font-size: 30px;
+}
+.kong-copyright{
+  text-align: center;
+  margin-top: 40px;
+  font-family: serif;
+}

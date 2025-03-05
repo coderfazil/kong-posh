@@ -1,0 +1,30 @@
+.adminPanel {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.adminPanel h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.navLinkskong {
+  display: flex;
+  flex-direction: column;
+}
+
+.navLinkskong a {
+  margin: 10px 0;
+  padding: 10px;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navLinkskong a:hover {
+  background-color: #007bff;
+  color: white;
+}

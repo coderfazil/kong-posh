@@ -48,9 +48,9 @@ This project demonstrates real-world e-commerce workflows, secure authentication
 
 ## Project Structure
 kong-posh/
-├── client/ # React frontend
-│ ├── redux/ # Redux store, reducers, actions
-├── server/ # Node.js & Express backend
+├── # Frontend
+│ ├── store/ # Redux store, reducers, actions
+├── kong-posh-backend/ # Node.js & Express backend
 │ ├── models/ # Mongoose schemas
 │ ├── routes/ # API routes
 │ ├── controllers/
